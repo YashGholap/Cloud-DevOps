@@ -33,7 +33,19 @@ vim sample.txt
 		/pretty
 		?pretty
 ``` 
-		
+4. Navigation:
+	- Now you may notice, the mouse is nowhere is use here. To navigate a text document in vim, use the following keys:
+		-  `h` or the left arrow - will move you left one character
+		-  `k` or the up arrow - will move you up one character.
+		-  `j` or the down arrow - will move you down one character.
+		-  `l` or the right arrow - will move you down one character.
 
+5. Editing:
+	- Now that we have a couple of lines written, let's edit it a bit more and remove some cruft.
+		- `x`  - used to cut the selected text also used for deleting characters.
+		- `dd`  - used to delete the current line.
+		-  `y` - yank or copy whatever is selected.
+		-  `yy` - yank or copy the current line.
+		-  `p` - paste the copied text before the cursor
 
 
